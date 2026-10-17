@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Family Restaurant Chooser</title>
+  <meta name="description" content="Weekly family restaurant picks based on everyone's tastes">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🍽️</text></svg>">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a href="#/" class="brand">🍽️ Where are we eating?</a>
+    <nav>
+      <a href="#/" data-nav="home">Pick</a>
+      <a href="#/family" data-nav="family">Family</a>
+      <a href="#/history" data-nav="history">History</a>
+    </nav>
+  </header>
+  <div id="banner"></div>
+  <main id="app" aria-live="polite"></main>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>
